@@ -1,0 +1,3 @@
+[submodule "jellyfin-cat"]
+	path = jellyfin-cat
+	url = https://github.com/ASKaraferias/jellyfin-cat
