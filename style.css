@@ -1,6 +1,35 @@
+:root {
+	--mocha-bw_1		:#11111b;
+	--mocha-bw_2		:#181825;
+	--mocha-bw_3		:#1e1e2e;
+	--mocha-bw_4		:#313244;
+	--mocha-bw_5		:#45475a;
+	--mocha-bw_6		:#585b70;
+	--mocha-bw_7		:#6c7086;
+	--mocha-bw_8		:#7f849c;
+	--mocha-bw_9 		:#9399b2;
+	--mocha-bw_10		:#a6adc8;
+	--mocha-bw_11 		:#bac2de;
+	--mocha-bw_12 		:#cdd6f4;
+
+	--mocha-lavender 	:#b4befe;
+	--mocha-blue 		:#89b4fa;
+	--mocha-saphire 	:#74c7ec;
+	--mocha-sky 		:#89dceb;
+	--mocha-teal 		:#94e2d5;
+	--mocha-green 		:#a6e3a1;
+	--mocha-yellow 		:#f9e2af;
+	--mocha-peach 		:#fab387;
+	--mocha-maroon 		:#eba0ac;
+	--mocha-red		:#f38ba8;
+	--mocha-mauve 		:#cba6f7;
+	--mocha-pink 		:#f5c2e7;
+	--mocha-flamingo	:#f2cdcd;
+	--mocha-rosewater	:#f5e0dc;
+}
 @font-face {
 	font-family: "Fira";
-	src: url("../ASKaraferias.github.io/FiraCode/Fira\ Code\ Bold\ Nerd\ Font\ Complete.ttf") format('truetype');
+	src: url("/FiraCode/Fira\ Code\ Bold\ Nerd\ Font\ Complete.ttf") format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -11,8 +40,43 @@
 	font-style: normal;
 }
 body {
-	background-color: #11111b;
-	color: #cdd6f4;
+	background-color: var(--mocha-bw_1);
+	color: var(--mocha-bw_12);
 	font-family: "Fira";
 	font-weight: normal;
+}
+p {
+	font-size: 16px;
+}
+a:link {
+	color: var(--mocha-green);
+	text-decoration: none;
+}
+
+a:visited {
+	color: var(--mocha-green);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--mocha-maroon);
+	text-decoration: none;
+}
+
+.topnav a {
+	padding: 5px 6px;
+	font-weight: bold;
+	font-size: 20px;
+	color: var(--mocha-bw_1);
+	background-color: var(--mocha-bw_12);
+	border-radius: 3px;
+}
+
+.topnav a.active {
+	color: var(--mocha-bw_1);
+	background-color: var(--mocha-mauve);
+}
+
+.topnav a:hover {
+	color: var(--mocha-bw_1);
+	background-color: var(--mocha-green);
 }
