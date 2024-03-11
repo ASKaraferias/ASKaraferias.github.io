@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Catamaran:900&display=swap");
 :root {
 	--mocha-bw_1		:#11111b;
 	--mocha-bw_2		:#181825;
@@ -27,9 +28,6 @@
 	--mocha-flamingo	:#f2cdcd;
 	--mocha-rosewater	:#f5e0dc;
 }
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
-
-@import url(https://fonts.googleapis.com/css?family=Madimi+One);
 
 @font-face {
 	font-family: "Fira";
@@ -43,20 +41,55 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
 body {
-	position: absolute;
+	/*position: absolute;*/
 	background-color: var(--mocha-bw_3);
 	color: var(--mocha-bw_12);
 	font-family: "Fira";
 	font-weight: normal;
 }
 
+.grid-container {
+ 	display: grid;
+ 	grid-template-areas:
+ 	  'header header header header header header'
+ 	  'menu main main main right right'
+ 	  'menu footer footer footer footer footer';
+ 	gap: 2em;
+ 	background-color: var(--mocha-bw_3);
+ 	padding: 0.6em;
+}
+
+.grid-container > div {
+	/*background-color: var(--mocha-bw_3);*/
+ 	text-align: left;
+ 	padding: 1em 1em;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 {
+	grid-area: footer;
+	background-color: var(--mocha-bw_1);
+}
+
+
+.nerd {
+	font-size: 1.56em;
+}
+
 h1 {
+	font-family: "Catamaran";
+	font-weight: "900";
 	font-size: 3.75em; /* 60px/16=3.75em */
-	background: linear-gradient(to right, var(--mocha-peach), var(--mocha-mauve));
+	line-height: 1em;
+	background: linear-gradient(to right, var(--mocha-peach), var(--mocha-mauve) 20%);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
-	font-family: "Madimi One";
+	margin: 0;
 }
 
 h2 {
@@ -85,9 +118,6 @@ p {
 	color: var(--mocha-bw_12);
 }
 
-.nerd {
-	font-size: 1.38em;
-}
 
 a:link {
 	color: var(--mocha-green);
@@ -103,51 +133,57 @@ a:hover {
 	text-decoration: none;
 }
 
-
-.topnav a {
+.sidebar {
+	height: 100%;
+}
+.sidebar a {
+	display: block;
 	padding: 0.6em 0.6em;
+	margin: 0 0 0.5em 0;
 	border-radius: 1em;
 	font-size: 1.25em; 
-	font-weight: bold;
+	font-weight: normal;
 	color: var(--mocha-bw_1);
+	text-align: center;
 }
 
-.topnav a.active {
-	background-color: var(--mocha-mauve);
+.sidebar a.active {
+	color: var(--mocha-bw_12);
 }
 
-.topnav a:hover {
+.sidebar a:hover {
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));
 }
 
-.topnav a.home {
+.sidebar a.home {
 	background: linear-gradient(to right, var(--mocha-lavender), var(--mocha-mauve));
 }
-.topnav a.home:hover {
+.sidebar a.home:hover {
 	background-color: var(--mocha-mauve);
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
 
-.topnav a.bio {
+.sidebar a.bio {
 	background: linear-gradient(to right, var(--mocha-yellow), var(--mocha-peach));
 }
-.topnav a.bio:hover {
+.sidebar a.bio:hover {
 	background-color: var(--mocha-yellow);
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
 
-.topnav a.research {
+.sidebar a.research {
 	background: linear-gradient(to right, var(--mocha-teal), var(--mocha-green));
 }
-.topnav a.research:hover {
+.sidebar a.research:hover {
 	background-color: var(--mocha-green);
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
 
-.topnav a.about {
+.sidebar a.about {
 	background: linear-gradient(to right, var(--mocha-maroon), var(--mocha-red));
 }
-.topnav a.about:hover {
+.sidebar a.about:hover {
 	background-color: var(--mocha-red);
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
+
