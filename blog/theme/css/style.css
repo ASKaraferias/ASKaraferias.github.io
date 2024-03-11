@@ -70,6 +70,10 @@ body {
 	grid-area: header;
 	width: 100%;
 }
+.item1 h1, .item1 img {
+    display:inline-block;
+    vertical-align:middle;
+}
 .item2 {
 	grid-area: menu;
 	width: 100%;
