@@ -1,32 +1,32 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans|Catamaran:900&display=swap");
 :root {
-	--mocha-bw_1		:#11111b;
-	--mocha-bw_2		:#181825;
-	--mocha-bw_3		:#1e1e2e;
-	--mocha-bw_4		:#313244;
-	--mocha-bw_5		:#45475a;
-	--mocha-bw_6		:#585b70;
-	--mocha-bw_7		:#6c7086;
-	--mocha-bw_8		:#7f849c;
-	--mocha-bw_9 		:#9399b2;
-	--mocha-bw_10		:#a6adc8;
-	--mocha-bw_11 		:#bac2de;
-	--mocha-bw_12 		:#cdd6f4;
+	--bw_1		:#11111b;
+	--bw_2		:#181825;
+	--bw_3		:#1e1e2e;
+	--bw_4		:#313244;
+	--bw_5		:#45475a;
+	--bw_6		:#585b70;
+	--bw_7		:#6c7086;
+	--bw_8		:#7f849c;
+	--bw_9 		:#9399b2;
+	--bw_10		:#a6adc8;
+	--bw_11 	:#bac2de;
+	--bw_12 	:#cdd6f4;
 
-	--mocha-lavender 	:#b4befe;
-	--mocha-blue 		:#89b4fa;
-	--mocha-saphire 	:#74c7ec;
-	--mocha-sky 		:#89dceb;
-	--mocha-teal 		:#94e2d5;
-	--mocha-green 		:#a6e3a1;
-	--mocha-yellow 		:#f9e2af;
-	--mocha-peach 		:#fab387;
-	--mocha-maroon 		:#eba0ac;
-	--mocha-red		:#f38ba8;
-	--mocha-mauve 		:#cba6f7;
-	--mocha-pink 		:#f5c2e7;
-	--mocha-flamingo	:#f2cdcd;
-	--mocha-rosewater	:#f5e0dc;
+	--lavender 	:#b4befe;
+	--blue 		:#89b4fa;
+	--saphire 	:#74c7ec;
+	--sky 		:#89dceb;
+	--teal 		:#94e2d5;
+	--green 	:#a6e3a1;
+	--yellow 	:#f9e2af;
+	--peach 	:#fab387;
+	--maroon 	:#eba0ac;
+	--red		:#f38ba8;
+	--mauve 	:#cba6f7;
+	--pink 		:#f5c2e7;
+	--flamingo	:#f2cdcd;
+	--rosewater	:#f5e0dc;
 }
 
 @font-face {
@@ -44,9 +44,9 @@
 
 body {
 	position: absolute;
-	background-color: var(--mocha-bw_3);
-	color: var(--mocha-bw_12);
-	font-family: "Fira";
+	background-color: var(--bw_3);
+	color: var(--bw_12);
+	font-family: "Fira Sans";
 	font-weight: normal;
 }
 
@@ -57,12 +57,11 @@ body {
  	  'menu main main main right right'
  	  'menu footer footer footer footer footer';
  	gap: 2em;
- 	background-color: var(--mocha-bw_3);
+ 	background-color: var(--bw_3);
  	padding: 0.6em;
 }
 
 .grid-container > div {
-	/*background-color: var(--mocha-bw_3);*/
  	text-align: left;
  	padding: 1em 1em;
 }
@@ -85,13 +84,14 @@ body {
 }
 .item5 {
 	grid-area: footer;
-	background-color: var(--mocha-bw_1);
+	background-color: var(--bw_1);
 	width: 80%;
 }
 
 
 .nerd {
 	font-size: 1.56em;
+	font-family: "Fira";
 }
 
 h1 {
@@ -99,7 +99,7 @@ h1 {
 	font-weight: "900";
 	font-size: 3.75em; /* 60px/16=3.75em */
 	line-height: 1em;
-	background: linear-gradient(to right, var(--mocha-peach), var(--mocha-mauve) 20%);
+	background: linear-gradient(to right, var(--peach), var(--mauve) 20%);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 	margin: 0;
@@ -127,26 +127,26 @@ h6 {
 
 p {
 	font-size: 1em; /* 16px/16 = 1em */
-	font-family: "Fira Sans";
-	color: var(--mocha-bw_12);
+	color: var(--bw_12);
 }
 
 
 a:link {
-	color: var(--mocha-green);
+	color: var(--green);
 	text-decoration: none;
 }
 
 a:visited {
-	color: var(--mocha-green);
+	color: var(--green);
 	text-decoration: none;
 }
 a:hover {
-	color: var(--mocha-red);
+	color: var(--red);
 	text-decoration: none;
 }
 
 .sidebar {
+	font-family: "Fira";
 	height: 100%;
 }
 .sidebar a {
@@ -156,12 +156,12 @@ a:hover {
 	border-radius: 1em;
 	font-size: 1.25em; 
 	font-weight: normal;
-	color: var(--mocha-bw_1);
+	color: var(--bw_1);
 	text-align: center;
 }
 
 .sidebar a.active {
-	color: var(--mocha-bw_12);
+	color: var(--bw_12);
 }
 
 .sidebar a:hover {
@@ -169,34 +169,34 @@ a:hover {
 }
 
 .sidebar a.home {
-	background: linear-gradient(to right, var(--mocha-lavender), var(--mocha-mauve));
+	background: linear-gradient(to right, var(--lavender), var(--mauve));
 }
 .sidebar a.home:hover {
-	background-color: var(--mocha-mauve);
+	background-color: var(--mauve);
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
 
 .sidebar a.bio {
-	background: linear-gradient(to right, var(--mocha-yellow), var(--mocha-peach));
+	background: linear-gradient(to right, var(--yellow), var(--peach));
 }
 .sidebar a.bio:hover {
-	background-color: var(--mocha-yellow);
+	background-color: var(--yellow);
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
 
 .sidebar a.research {
-	background: linear-gradient(to right, var(--mocha-teal), var(--mocha-green));
+	background: linear-gradient(to right, var(--teal), var(--green));
 }
 .sidebar a.research:hover {
-	background-color: var(--mocha-green);
+	background-color: var(--green);
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
 
 .sidebar a.about {
-	background: linear-gradient(to right, var(--mocha-maroon), var(--mocha-red));
+	background: linear-gradient(to right, var(--maroon), var(--red));
 }
 .sidebar a.about:hover {
-	background-color: var(--mocha-red);
+	background-color: var(--red);
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
 
