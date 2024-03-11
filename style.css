@@ -29,27 +29,34 @@
 }
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans);
 
+@import url(https://fonts.googleapis.com/css?family=Madimi+One);
+
 @font-face {
 	font-family: "Fira";
-	src: url("/FiraCode/Fira\ Code\ Bold\ Nerd\ Font\ Complete.ttf") format('truetype');
+	src: url("FiraCode/Fira\ Code\ Bold\ Nerd\ Font\ Complete.ttf") format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: "Fira";
-	src: url("/FiraCode/Fira\ Code\ Regular\ Nerd\ Font\ Complete.ttf") format('truetype');
+	src: url("FiraCode/Fira\ Code\ Regular\ Nerd\ Font\ Complete.ttf") format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 body {
-	background-color: var(--mocha-bw_1);
+	position: absolute;
+	background-color: var(--mocha-bw_3);
 	color: var(--mocha-bw_12);
 	font-family: "Fira";
 	font-weight: normal;
 }
 
 h1 {
-	font-size: 2.5em; /* 40px/16=2.5em */
+	font-size: 3.75em; /* 60px/16=3.75em */
+	background: linear-gradient(to right, var(--mocha-peach), var(--mocha-mauve));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	font-family: "Madimi One";
 }
 
 h2 {
@@ -77,6 +84,11 @@ p {
 	font-family: "Fira Sans";
 	color: var(--mocha-bw_12);
 }
+
+.nerd {
+	font-size: 1.38em;
+}
+
 a:link {
 	color: var(--mocha-green);
 	text-decoration: none;
@@ -87,25 +99,55 @@ a:visited {
 	text-decoration: none;
 }
 a:hover {
-	color: var(--mocha-maroon);
+	color: var(--mocha-red);
 	text-decoration: none;
 }
 
+
 .topnav a {
-	padding: 0.25em 0.3em;
-	border-radius: 0.15em;
+	padding: 0.6em 0.6em;
+	border-radius: 1em;
+	font-size: 1.25em; 
 	font-weight: bold;
-	font-size: 1.25em; /* 20px/16 = 1.25em */
 	color: var(--mocha-bw_1);
-	background-color: var(--mocha-bw_12);
 }
 
 .topnav a.active {
-	color: var(--mocha-bw_1);
 	background-color: var(--mocha-mauve);
 }
 
 .topnav a:hover {
-	color: var(--mocha-bw_1);
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));
+}
+
+.topnav a.home {
+	background: linear-gradient(to right, var(--mocha-lavender), var(--mocha-mauve));
+}
+.topnav a.home:hover {
+	background-color: var(--mocha-mauve);
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+}
+
+.topnav a.bio {
+	background: linear-gradient(to right, var(--mocha-yellow), var(--mocha-peach));
+}
+.topnav a.bio:hover {
+	background-color: var(--mocha-yellow);
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+}
+
+.topnav a.research {
+	background: linear-gradient(to right, var(--mocha-teal), var(--mocha-green));
+}
+.topnav a.research:hover {
 	background-color: var(--mocha-green);
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+}
+
+.topnav a.about {
+	background: linear-gradient(to right, var(--mocha-maroon), var(--mocha-red));
+}
+.topnav a.about:hover {
+	background-color: var(--mocha-red);
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
