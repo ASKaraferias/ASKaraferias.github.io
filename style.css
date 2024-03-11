@@ -47,6 +47,7 @@ body {
 }
 p {
 	font-size: 16px;
+	color: var(--mocha-peach);
 }
 a:link {
 	color: var(--mocha-green);
