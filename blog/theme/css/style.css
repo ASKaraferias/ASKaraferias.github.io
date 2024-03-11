@@ -70,10 +70,12 @@ body {
 	grid-area: header;
 	width: 100%;
 }
+
 .item1 h1, .item1 img {
     display:inline-block;
     vertical-align:middle;
 }
+
 .item2 {
 	grid-area: menu;
 	width: 100%;
@@ -162,16 +164,25 @@ a:hover {
 	font-weight: normal;
 	color: var(--bw_1);
 	text-align: center;
-}
-
-.sidebar a.active {
-	color: var(--bw_12);
+	background: linear-gradient(to right, var(--saphire), var(--mauve));
 }
 
 .sidebar a:hover {
-	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));
+	background-color: var(--mauve);
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
 
+.sidebar a.active {
+	background: linear-gradient(to right, var(--saphire), var(--green));
+}
+
+.sidebar a.active:hover {
+	background-color: var(--green);
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+}
+
+
+/*
 .sidebar a.home {
 	background: linear-gradient(to right, var(--lavender), var(--mauve));
 }
@@ -211,3 +222,4 @@ a:hover {
 	background-color: var(--sky);
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
+*/
