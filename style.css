@@ -70,6 +70,12 @@ body {
 	grid-area: header;
 	width: 100%;
 }
+
+.item1 h1, .item1 img {
+    display:inline-block;
+    vertical-align:middle;
+}
+
 .item2 {
 	grid-area: menu;
 	width: 100%;
@@ -207,3 +213,4 @@ a:hover {
 	background-color: var(--sky);
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
+
