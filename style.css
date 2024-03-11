@@ -35,7 +35,7 @@
 }
 @font-face {
 	font-family: "Fira";
-	src: url("../ASKaraferias.github.io/FiraCode/Fira\ Code\ Regular\ Nerd\ Font\ Complete.ttf") format('truetype');
+	src: url("/FiraCode/Fira\ Code\ Regular\ Nerd\ Font\ Complete.ttf") format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
