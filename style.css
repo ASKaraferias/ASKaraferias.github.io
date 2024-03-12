@@ -68,7 +68,6 @@ body {
 
 .item1 {
 	grid-area: header;
-	width: 100%;
 }
 
 .item1 h1, .item1 img {
@@ -78,21 +77,16 @@ body {
 
 .item2 {
 	grid-area: menu;
-	width: 100%;
 }
 .item3 {
 	grid-area: main;
-	width: 100%;
-	min-width: 80em;
 }
 .item4 {
 	grid-area: right;
-	width:	100%;
 }
 .item5 {
 	grid-area: footer;
 	background-color: var(--bw_1);
-	width: 80%;
 }
 
 
@@ -150,7 +144,6 @@ h6 {
 p {
 	font-size: 1em; /* 16px/16 = 1em */
 	color: var(--bw_12);
-	max-width: 70em;
 }
 
 
@@ -240,9 +233,3 @@ a:hover {
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
 */
-
-
-article {
-	vertical-align: middle;
-	max-width: 70em;
-}
