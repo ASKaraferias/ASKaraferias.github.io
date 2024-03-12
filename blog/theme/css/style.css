@@ -242,7 +242,7 @@ article {
 	border-color: var(--lavender);
 	padding: 1em;
 	margin-bottom: 1em;
-	background: var(--bw_1);
+	background-color: var(--bw_1);
 }
 
 @media only screen and (min-width: 1200px) {
