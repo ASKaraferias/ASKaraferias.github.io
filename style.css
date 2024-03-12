@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Catamaran:900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Catamaran|Catamaran:500|Catamaran:600|Catamaran:700|Catamaran:800|Catamaran:900&display=swap");
 :root {
 	--bw_1		:#11111b;
 	--bw_2		:#181825;
@@ -113,22 +113,32 @@ h1 {
 
 h2 {
 	font-size: 1.88em; /* 30px/16=1.88em */
+	font-family: "Catamaran";
+	font-weight: "700";
 }
 
 h3 {
 	font-size: 1.56em; /* 25px/16 = 1.56em */
+	font-family: "Catamaran";
+	font-weight: "600";
 }
 
 h4 {
 	font-size: 1.38em; /* 22px/16 = 1.38em */
+	font-family: "Catamaran";
+	font-weight: "600";
 }
 
 h5 {
 	font-size: 1.25em; /* 20/16 = 1.25em */
+	font-family: "Catamaran";
+	font-weight: "600";
 }
 
 h6 {
 	font-size: 1.13em; /* 18px/16 = 1.13em */
+	font-family: "Catamaran";
+	font-weight: "600";
 }
 
 p {
