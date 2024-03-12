@@ -48,6 +48,7 @@ body {
 	color: var(--bw_12);
 	font-family: "Fira Sans";
 	font-weight: normal;
+	margin: 0 auto;
 }
 
 .grid-container {
