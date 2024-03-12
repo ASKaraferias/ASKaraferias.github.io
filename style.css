@@ -236,13 +236,15 @@ a:hover {
 */
 
 article {
-	border-style: solid;
-	border-radius: 1em;
-	border-width: 2px;
-	border-color: var(--lavender);
+	border: 10px solid;
+	/*border-radius: 1em;*/
+	border-width: 5px;
+	border-image-slice: 1;
+	/*border-color: var(--lavender);*/
+	border-image-source: linear-gradient(to right, var(--saphire), var(--mauve));
+	background-color: var(--bw_1);
 	padding: 1em;
 	margin-bottom: 1em;
-	background-color: var(--bw_1);
 }
 
 @media only screen and (min-width: 1200px) {
