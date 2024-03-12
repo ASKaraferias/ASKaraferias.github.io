@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>A.S. Karaferias</title><link href="https://karaferias.com/blog/" rel="alternate"></link><link href="https://karaferias.com/blog/feeds/all.atom.xml" rel="self"></link><id>https://karaferias.com/blog/</id><updated>2024-03-12T02:38:00+02:00</updated><entry><title>Atom and RSS feeds: The best way to keep up with the blog!</title><link href="https://karaferias.com/blog/atom-and-rss-feeds-the-best-way-to-keep-up-with-the-blog.html" rel="alternate"></link><published>2024-03-12T02:38:00+02:00</published><updated>2024-03-12T02:38:00+02:00</updated><author><name>Apostolos Sotirios Karaferias</name></author><id>tag:karaferias.com,2024-03-12:/blog/atom-and-rss-feeds-the-best-way-to-keep-up-with-the-blog.html</id><summary type="html">&lt;p&gt;In this post, I will try to briefly explain what Atom and RSS feeds are and why
 they are in my opinion the best way to keep up with your favourite blogs and
 news websites.&lt;/p&gt;
-&lt;h2&gt;Really Simple Syndication (RSS)&lt;/h2&gt;
+&lt;h3&gt;Really Simple Syndication (RSS)&lt;/h3&gt;
 &lt;p&gt;RSS is a standardized file format that contains text contents of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In this post, I will try to briefly explain what Atom and RSS feeds are and why
 they are in my opinion the best way to keep up with your favourite blogs and
 news websites.&lt;/p&gt;
-&lt;h2&gt;Really Simple Syndication (RSS)&lt;/h2&gt;
+&lt;h3&gt;Really Simple Syndication (RSS)&lt;/h3&gt;
 &lt;p&gt;RSS is a standardized file format that contains text contents of online
 websites, i.e. a file that a computer can read and contains contents of recent
 posts of online blogs or other websites. A user can subscribe to an RSS feed
@@ -17,12 +17,12 @@ titles and part of its contents into human-readable entries that one can usually
 read directly inside their RSS reader. A lot of RSS readers (e.g. newsboat) offer
 ways for the user to easily open the original article in their browser or to
 view the entire article directly inside the reader (e.g. feeder).&lt;/p&gt;
-&lt;h2&gt;Atom&lt;/h2&gt;
+&lt;h3&gt;Atom&lt;/h3&gt;
 &lt;p&gt;Atom is a format that functions essentialy the same way as RSS but is more
 modern and modular, enabling the use of its entries outside of the context of an
 Atom feed reader. In the context of this article and a typical user they are
 the same thing.&lt;/p&gt;
-&lt;h2&gt;How to subscribe to my (or any other) feed&lt;/h2&gt;
+&lt;h3&gt;How to subscribe to my (or any other) feed&lt;/h3&gt;
 &lt;p&gt;Most blogs and news websites provide RSS and Atom feeds. I make
 those feeds available on the right hand side of my blog. You can subscribe to
 one of them by copying the link and pasting it to your feed reader.
