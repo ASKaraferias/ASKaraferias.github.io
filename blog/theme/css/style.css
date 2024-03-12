@@ -83,7 +83,7 @@ body {
 .item3 {
 	grid-area: main;
 	width: 100%;
-	min-width: 100em;
+	min-width: 80em;
 }
 .item4 {
 	grid-area: right;
@@ -242,5 +242,5 @@ a:hover {
 
 article {
 	vertical-align: middle;
-	max-width: 80em;
+	max-width: 70em;
 }
