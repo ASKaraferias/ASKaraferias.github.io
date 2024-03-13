@@ -43,7 +43,7 @@
 }
 
 body {
-	position: absolute;
+	position: relative;
 	background-color: var(--bw_3);
 	color: var(--bw_12);
 	font-family: "Fira Sans";
@@ -168,7 +168,7 @@ a:hover {
 .sidebar {
 	font-family: "Fira";
 	height: 100%;
-	max-width: 10cm;
+	max-width: 9cm;
 }
 .sidebar a {
 	display: block;
@@ -257,5 +257,6 @@ article {
 	/* For desktop: */
 	p {max-width: 70em;}
 	article {max-width: 80em;}
+	.item2 {width: 9cm;}
 	.item3 {max-width: 80em;}
 }
