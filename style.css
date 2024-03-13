@@ -56,7 +56,7 @@ body {
  	grid-template-areas:
  	  'header header header header header header'
  	  'menu main main main right right'
- 	  'menu footer footer footer footer footer';
+ 	  'footer footer footer footer footer footer';
  	gap: 2em;
  	background-color: var(--bw_3);
  	padding: 0.6em;
@@ -171,6 +171,7 @@ a:hover {
 	font-family: "Fira";
 	height: 100%;
 	max-width: 8cm;
+	margin: 0;
 }
 .sidebar a {
 	display: block;
