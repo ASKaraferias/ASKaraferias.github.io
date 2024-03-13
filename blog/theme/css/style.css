@@ -168,7 +168,7 @@ a:hover {
 .sidebar {
 	font-family: "Fira";
 	height: 100%;
-	max-width: 9cm;
+	max-width: 8cm;
 }
 .sidebar a {
 	display: block;
@@ -257,6 +257,6 @@ article {
 	/* For desktop: */
 	p {max-width: 70em;}
 	article {max-width: 80em;}
-	.item2 {width: 9cm;}
+	.item2 {width: 8cm;}
 	.item3 {max-width: 80em;}
 }
