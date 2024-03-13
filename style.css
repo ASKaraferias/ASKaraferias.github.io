@@ -79,6 +79,7 @@ body {
 .item2 {
 	grid-area: menu;
 	margin-left: 1em;
+	margin-right:1em;
 }
 .item3 {
 	grid-area: main;
@@ -91,6 +92,7 @@ body {
 .item5 {
 	grid-area: footer;
 	background-color: var(--bw_1);
+	margin: 1em;
 }
 
 
