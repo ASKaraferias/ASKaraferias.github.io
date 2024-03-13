@@ -43,7 +43,7 @@
 }
 
 body {
-	position: relative;
+	position: absolute;
 	background-color: var(--bw_3);
 	color: var(--bw_12);
 	font-family: "Fira Sans";
