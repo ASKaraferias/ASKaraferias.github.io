@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>A.S. Karaferias</title><link>https://karaferias.com/blog/</link><description></description><lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0200</lastBuildDate><item><title>Special Kebab Recipe!</title><link>https://karaferias.com/blog/special-kebab-recipe.html</link><description>&lt;h2&gt;Ingredients:&lt;/h2&gt;
+<rss version="2.0"><channel><title>A.S. Karaferias</title><link>https://karaferias.com/blog/</link><description></description><lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0200</lastBuildDate><item><title>This post was created with neovim from my phone!</title><link>https://karaferias.com/blog/this-post-was-created-with-neovim-from-my-phone.html</link><description>&lt;p&gt;This post was created from my phone. Don't think
+that's a big deal? Well let me tell you why you're
+mistaken.&lt;/p&gt;
+&lt;p&gt;I folllow a very specific process for editing this
+blog. I write each post in &lt;code&gt;markdown&lt;/code&gt; and I use
+&lt;a href="https://getpelican.com"&gt;pelican&lt;/a&gt; to convert
+everything to html and create a static …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Apostolos Sotirios Karaferias</dc:creator><pubDate>Sat, 11 Jan 2025 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:karaferias.com,2025-01-11:/blog/this-post-was-created-with-neovim-from-my-phone.html</guid><category>Blog</category></item><item><title>Special Kebab Recipe!</title><link>https://karaferias.com/blog/special-kebab-recipe.html</link><description>&lt;h2&gt;Ingredients:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;500gr 50% pork - 50% beef mince&lt;/li&gt;
 &lt;li&gt;1 tablespoon of condensed tomato juice&lt;/li&gt;
@@ -15,10 +21,4 @@
 they are in my opinion the best way to keep up with your favourite blogs and
 news websites.&lt;/p&gt;
 &lt;h3&gt;Really Simple Syndication (RSS)&lt;/h3&gt;
-&lt;p&gt;RSS is a standardized file format that contains text contents of …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Apostolos Sotirios Karaferias</dc:creator><pubDate>Tue, 12 Mar 2024 02:38:00 +0200</pubDate><guid isPermaLink="false">tag:karaferias.com,2024-03-12:/blog/atom-and-rss-feeds-the-best-way-to-keep-up-with-the-blog.html</guid><category>Blog</category></item><item><title>Hello World</title><link>https://karaferias.com/blog/hello-world.html</link><description>&lt;p&gt;Hello World!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Apostolos Sotirios Karaferias</dc:creator><pubDate>Mon, 11 Mar 2024 18:56:00 +0200</pubDate><guid isPermaLink="false">tag:karaferias.com,2024-03-11:/blog/hello-world.html</guid><category>Blog</category></item><item><title>This post was created with neovim from my phone!</title><link>https://karaferias.com/blog/this-post-was-created-with-neovim-from-my-phone.html</link><description>&lt;p&gt;This post was created from my phone. Don't think
-that's a big deal? Well let me tell you why you're
-mistaken.&lt;/p&gt;
-&lt;p&gt;I folllow a very specific process for editing this
-blog. I write each post in &lt;code&gt;markdown&lt;/code&gt; and I use
-&lt;a href="https://getpelican.com"&gt;pelican&lt;/a&gt; to convert
-everything to html and create a static …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Apostolos Sotirios Karaferias</dc:creator><pubDate>Tue, 25 Jan 2011 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:karaferias.com,2011-01-25:/blog/this-post-was-created-with-neovim-from-my-phone.html</guid><category>Review</category></item></channel></rss>
+&lt;p&gt;RSS is a standardized file format that contains text contents of …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Apostolos Sotirios Karaferias</dc:creator><pubDate>Tue, 12 Mar 2024 02:38:00 +0200</pubDate><guid isPermaLink="false">tag:karaferias.com,2024-03-12:/blog/atom-and-rss-feeds-the-best-way-to-keep-up-with-the-blog.html</guid><category>Blog</category></item><item><title>Hello World</title><link>https://karaferias.com/blog/hello-world.html</link><description>&lt;p&gt;Hello World!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Apostolos Sotirios Karaferias</dc:creator><pubDate>Mon, 11 Mar 2024 18:56:00 +0200</pubDate><guid isPermaLink="false">tag:karaferias.com,2024-03-11:/blog/hello-world.html</guid><category>Blog</category></item></channel></rss>
