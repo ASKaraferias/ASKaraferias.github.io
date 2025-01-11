@@ -68,4 +68,55 @@ right and then 'Add Feed'. Then paste the link you copied from my blog, then hit
 of your favourite blogs and news sites and create a personalized feed that is
 not relying on an algorithm that prioritizes certain things over others. Keep in
 mind that a lot of websites offer multiple feeds for different article
-categories.&lt;/p&gt;</content><category term="Blog"></category></entry><entry><title>Hello World</title><link href="https://karaferias.com/blog/hello-world.html" rel="alternate"></link><published>2024-03-11T18:56:00+02:00</published><updated>2024-03-11T18:56:00+02:00</updated><author><name>Apostolos Sotirios Karaferias</name></author><id>tag:karaferias.com,2024-03-11:/blog/hello-world.html</id><content type="html">&lt;p&gt;Hello World!&lt;/p&gt;</content><category term="Blog"></category></entry></feed>
+categories.&lt;/p&gt;</content><category term="Blog"></category></entry><entry><title>Hello World</title><link href="https://karaferias.com/blog/hello-world.html" rel="alternate"></link><published>2024-03-11T18:56:00+02:00</published><updated>2024-03-11T18:56:00+02:00</updated><author><name>Apostolos Sotirios Karaferias</name></author><id>tag:karaferias.com,2024-03-11:/blog/hello-world.html</id><content type="html">&lt;p&gt;Hello World!&lt;/p&gt;</content><category term="Blog"></category></entry><entry><title>This post was created with neovim from my phone!</title><link href="https://karaferias.com/blog/this-post-was-created-with-neovim-from-my-phone.html" rel="alternate"></link><published>2011-01-25T00:00:00+02:00</published><updated>2011-01-25T00:00:00+02:00</updated><author><name>Apostolos Sotirios Karaferias</name></author><id>tag:karaferias.com,2011-01-25:/blog/this-post-was-created-with-neovim-from-my-phone.html</id><summary type="html">&lt;p&gt;This post was created from my phone. Don't think
+that's a big deal? Well let me tell you why you're
+mistaken.&lt;/p&gt;
+&lt;p&gt;I folllow a very specific process for editing this
+blog. I write each post in &lt;code&gt;markdown&lt;/code&gt; and I use
+&lt;a href="https://getpelican.com"&gt;pelican&lt;/a&gt; to convert
+everything to html and create a static …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This post was created from my phone. Don't think
+that's a big deal? Well let me tell you why you're
+mistaken.&lt;/p&gt;
+&lt;p&gt;I folllow a very specific process for editing this
+blog. I write each post in &lt;code&gt;markdown&lt;/code&gt; and I use
+&lt;a href="https://getpelican.com"&gt;pelican&lt;/a&gt; to convert
+everything to html and create a static blog which
+I then push to my github page. &lt;/p&gt;
+&lt;p&gt;There are easier ways to create a blog but largely
+the reason I enjoy maintaining this site is that I
+have built everything - simple as it may be - from
+the ground up. It's neat, it's simple, it's safe,
+it's what the internet should be!&lt;/p&gt;
+&lt;p&gt;Furthermore, I could obviously create this post in
+my phone using any old editor and then transfer
+the file to my pc, build the blog and publish it,
+but that is not really the correct way, because
+you would have to choose between doing it manually
+which, who has the time, or you have to rely to a
+shady cloud service to sync your files between
+your phone and your pc. Also you would miss the
+opportunity to use your favorite editor - neovim.&lt;/p&gt;
+&lt;p&gt;No, the correct way is to create a github repo for
+the staging area of your blog, meaning the directory
+where you store all your markdown files that you
+then use to create the html entries of the blog,
+install termux in order to use your android phone
+similarly to any other linux computer, install
+neovim, git and gh on your phone, pull the staging
+area repo to your phone, create your posts there
+when you don't have access to your pc and finally
+push your posts to main.&lt;/p&gt;
+&lt;p&gt;Personally I opted against building the blog in my
+phone to ensure consistency of python packages
+between builds. But it is definitely doable in
+case you really want to publish your post directly
+from your phone rather than waiting to get to your
+pc.&lt;/p&gt;
+&lt;p&gt;Doing things the way I described means that one
+can use the same editor and follow the same exact
+process when editing their posts whether they have
+access to their computer or not. Also if you are a
+linux nerd you really enjoy doing things the linux
+way every opportunity you get and if you are a
+member of the cult of vim, using different editors
+makes you feel disgusted, sad and guilty.&lt;/p&gt;</content><category term="Review"></category></entry></feed>
