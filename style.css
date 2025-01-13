@@ -240,6 +240,8 @@ a:hover {
 .item5 {
 	grid-area: footer;
 	margin: 1em;
+	background: rgb(var(--crust));
+	border-radius: 1em;
 }
 
 
