@@ -149,6 +149,15 @@ p {
 	font-size: 1em; /* 16px/16 = 1em */
 	color: rgb(var(--white));
 }
+.contents {
+	border-radius: 1em;
+	border-style: dashed;
+	border-width:2px;
+	border-color: rgb(var(--lavender));
+	background-color: rgb(var(--base));
+	padding: 1em;
+	margin-bottom: 1em;
+}
 article {
 	border-radius: 1em;
 	border-style: dashed;
@@ -230,7 +239,6 @@ a:hover {
 }
 .item5 {
 	grid-area: footer;
-	background-color: rgb(var(--base));
 	margin: 1em;
 }
 
