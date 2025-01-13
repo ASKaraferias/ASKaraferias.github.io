@@ -154,7 +154,6 @@ article {
 	background-color: rgb(var(--base));
 	padding: 1em;
 	margin-bottom: 1em;
-	min-width: 50ch;
 }
 body {
 	position: relative;
@@ -206,7 +205,6 @@ a:hover {
 
 .item1 {
 	grid-area: header;
-	min-width: 35ch;
 }
 
 .item1 h1, .item1 img {
@@ -218,7 +216,6 @@ a:hover {
 	grid-area: menu;
 	margin-left: 1em;
 	margin-right:1em;
-	min-width: 26ch;
 }
 .item3 {
 	grid-area: main;
@@ -227,7 +224,6 @@ a:hover {
 .item4 {
 	grid-area: right;
 	margin-right: 1em;
-	width: 20ch;
 }
 .item5 {
 	grid-area: footer;
