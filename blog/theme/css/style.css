@@ -108,7 +108,10 @@ h1 { /*Only for the Page Title!*/
 	padding-top: 0.5em;
 	padding-right: 0.5em;
 	padding-bottom: 1em;
-
+	display: block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 h2 {
@@ -216,9 +219,9 @@ a:hover {
 	grid-area: menu;
 	margin-left: 1em;
 	margin-right:1em;
-}
-.item3 {
-	grid-area: main;
+}                      
+.item3 {               
+	grid-area: main;   
 	margin: 0 auto;
 }
 .item4 {
@@ -251,6 +254,8 @@ a:hover {
 	color: rgb(var(--crust));
 	text-align: left;
 	line-height: 3em;
+	white-space: nowrap;
+	overflow: hidden; 
 }
 
 
@@ -327,6 +332,8 @@ a:hover {
 	color: rgb(var(--crust));
 	text-align: right;
 	line-height: 3em;
+	white-space: nowrap;
+	overflow: hidden; 
 }
 .feed a .nerd {
 	font-size: 1.56em;
