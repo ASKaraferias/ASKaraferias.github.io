@@ -31,6 +31,35 @@
 	font-family: "JetBrainsMono BoldItalic";
 	src: url("JetBrains/JetBrainsMonoNerdFont-BoldItalic.ttf") format('truetype');
 }
+@font-face {
+	font-family: "Baskervville Bold";
+	src:url("Baskervville/static/Baskervville-Bold")
+}
+@font-face {
+	font-family: "Baskervville BoldItalic";
+	src:url("Baskervville/static/Baskervville-BoldItalic")
+}
+@font-face {
+	font-family: "Baskervville Italic";
+	src:url("Baskervville/static/Baskervville-Italic")
+}
+@font-face {
+	font-family: "Baskervville Regular";
+	src:url("Baskervville/static/Baskervville-Regular")
+}
+@font-face {
+	font-family: "Literata";
+	src: url("Literata/Literata-VariableFont_opsz,wght.ttf")
+}
+@font-face {
+	font-family: "Literata Italic";
+	src: url("Literata/Literata-Italic-VariableFont_opsz,wght.ttf")
+}
+@font-face {
+	font-family: "Literata BoldItalic";
+	src: url("Literata/Literata-Italic-VariableFont_opsz,wght.ttf")
+}
+
 /*Which Nerd Font*/
 .nerd {
 	font-family: "Fira";
@@ -163,6 +192,7 @@ h6 {
 }
 
 p {
+	font-family: "Literata";
 	font-size: 1em; /* 16px/16 = 1em */
 	color: rgb(var(--fg));
 }
@@ -183,6 +213,7 @@ article {
 	background-color: rgb(var(--bg0));
 	padding: 1em;
 	margin-bottom: 1em;
+	color: rgb(var(--fg));
 }
 
 article a:link {
