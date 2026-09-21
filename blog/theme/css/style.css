@@ -244,8 +244,8 @@ body {
 code {
 	font-family: "JetBrainsMono Regular";
 	font-weight: 1em;
-	color: rgb(var(--fg));
-	background: rgb(var(--bg1));
+	color: rgb(var(--fg_dark));
+	background: rgb(var(--bg0_dark));
 }
 /*Basic Elements - Links*/
 a:link {
