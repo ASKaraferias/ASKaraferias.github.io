@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A.S. Karaferias</title><link>https://karaferias.com/blog/</link><description/><atom:link href="https://karaferias.com/blog/feeds/all.rss.xml" rel="self"/><lastBuildDate>Mon, 21 Sep 2026 10:20:00 +0300</lastBuildDate><item><title>History of the Mullet</title><link>https://karaferias.com/blog/history-of-the-mullet.html</link><description>&lt;h3&gt;What is the mullet?&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="A handsome man with a mullet" src="https://karaferias.com/blog/photos/mulleta.jpg" title="A handsome young man with a mullet."&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src="https://karaferias.com/blog/photos/mulleta.jpg" alt="A handsome young man with a mullet! ^^"&gt;
+  &lt;figcaption&gt;A handsome young man with a mullet! ^^&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;Yee haw!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Apostolos Sotirios Karaferias</dc:creator><pubDate>Mon, 21 Sep 2026 10:20:00 +0300</pubDate><guid>tag:karaferias.com,2026-09-21:/blog/history-of-the-mullet.html</guid><category>Blog</category></item><item><title>This post was created with neovim from my phone!</title><link>https://karaferias.com/blog/this-post-was-created-with-neovim-from-my-phone.html</link><description>&lt;p&gt;This post was created from my phone. Don't think
 that's a big deal? Well let me tell you why you're
 mistaken.&lt;/p&gt;
