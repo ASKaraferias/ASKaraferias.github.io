@@ -189,8 +189,8 @@ h6 {
 
 p {
 	font-family: "Baskervville";
-	font-size: 1em; /* 16px/16 = 1em */
-	color: rgb(var(--bg_dim_dark));
+	font-size: 1.1em; /* 16px/16 = 1em */
+	color: rgb(var(--fg));
 }
 .contents {
 	border-radius: 0em;
@@ -209,8 +209,9 @@ article {
 	background-color: rgb(var(--bg0));
 	padding: 1em;
 	margin-bottom: 1em;
-	color: rgb(var(--bg_dim_dark));
+	color: rgb(var(--fg));
 	font-family: "Baskervville";
+	font-size: 1.1em; /* 16px/16 = 1em */
 }
 
 article a:link {
