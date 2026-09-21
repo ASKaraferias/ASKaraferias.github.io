@@ -31,6 +31,31 @@
 	font-family: "JetBrainsMono BoldItalic";
 	src: url("JetBrains/JetBrainsMonoNerdFont-BoldItalic.ttf") format('truetype');
 }
+@font-face {
+	font-family: "Baskervville";
+	src:url("Baskervville/Baskervville-VariableFont_wght.ttf")
+}
+@font-face {
+	font-family: "Baskervville BoldItalic";
+	src:url("Baskervville/Baskervville-Italic-VariableFont_wght.ttf")
+}
+@font-face {
+	font-family: "Baskervville Italic";
+	src:url("Baskervville/Baskervville-Italic-VariableFont_wght.ttf")
+}
+@font-face {
+	font-family: "Literata";
+	src: url("Literata/Literata-VariableFont_opsz,wght.ttf")
+}
+@font-face {
+	font-family: "Literata Italic";
+	src: url("Literata/Literata-Italic-VariableFont_opsz,wght.ttf")
+}
+@font-face {
+	font-family: "Literata BoldItalic";
+	src: url("Literata/Literata-Italic-VariableFont_opsz,wght.ttf")
+}
+
 /*Which Nerd Font*/
 .nerd {
 	font-family: "Fira";
@@ -163,6 +188,7 @@ h6 {
 }
 
 p {
+	font-family: "Literata";
 	font-size: 1em; /* 16px/16 = 1em */
 	color: rgb(var(--fg));
 }
@@ -183,11 +209,33 @@ article {
 	background-color: rgb(var(--bg0));
 	padding: 1em;
 	margin-bottom: 1em;
+	color: rgb(var(--fg));
+	font-family: "Baskervville";
 }
+
+article a:link {
+	color: rgb(var(--green));
+	text-decoration: none;
+}
+
+article a:visited {
+	color: rgb(var(--green));
+	text-decoration: none;
+}
+article a:hover {
+	color: rgb(var(--aqua));
+	text-decoration: none;
+}
+article h1, article h2, article h3, article h4, article h5, article h6 {
+	color: rgb(var(--fg));
+	font-family: "Baskervville";
+}
+
+
 body {
 	position: relative;
-	background-color: rgb(var(--bg0));
-	color: rgb(var(--fg));
+	background-color: rgb(var(--bg0_dark));
+	color: rgb(var(--fg_dark));
 	font-family: "JetBrainsMono Regular";
 	margin: 0 auto;
 	font-size: 100%;
@@ -201,16 +249,16 @@ code {
 }
 /*Basic Elements - Links*/
 a:link {
-	color: rgb(var(--green));
+	color: rgb(var(--green_dark));
 	text-decoration: none;
 }
 
 a:visited {
-	color: rgb(var(--green));
+	color: rgb(var(--green_dark));
 	text-decoration: none;
 }
 a:hover {
-	color: rgb(var(--aqua));
+	color: rgb(var(--aqua_dark));
 	text-decoration: none;
 }
 
@@ -290,7 +338,7 @@ a:hover {
 
 
 .sidebar a.active {
-	background: rgb(var(--green_dark));
+	background: rgb(var(--aqua_dark));
 	color: rgb(var(--bg_dim_dark));
 }
 .sidebar a {
@@ -301,7 +349,7 @@ a:hover {
 }
 
 .sidebar a.active:hover {
-	background-color: rgb(var(--statusline1));
+	background-color: rgb(var(--aqua_dark));
 }
 
 .sidebar .nerd {

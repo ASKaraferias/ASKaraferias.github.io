@@ -32,20 +32,16 @@
 	src: url("JetBrains/JetBrainsMonoNerdFont-BoldItalic.ttf") format('truetype');
 }
 @font-face {
-	font-family: "Baskervville Bold";
-	src:url("Baskervville/static/Baskervville-Bold")
+	font-family: "Baskervville";
+	src:url("Baskervville/Baskervville-VariableFont_wght.ttf")
 }
 @font-face {
 	font-family: "Baskervville BoldItalic";
-	src:url("Baskervville/static/Baskervville-BoldItalic")
+	src:url("Baskervville/Baskervville-Italic-VariableFont_wght.ttf")
 }
 @font-face {
 	font-family: "Baskervville Italic";
-	src:url("Baskervville/static/Baskervville-Italic")
-}
-@font-face {
-	font-family: "Baskervville Regular";
-	src:url("Baskervville/static/Baskervville-Regular")
+	src:url("Baskervville/Baskervville-Italic-VariableFont_wght.ttf")
 }
 @font-face {
 	font-family: "Literata";
@@ -214,7 +210,7 @@ article {
 	padding: 1em;
 	margin-bottom: 1em;
 	color: rgb(var(--fg));
-	font-family: "Literata";
+	font-family: "Baskervville";
 }
 
 article a:link {
@@ -232,7 +228,7 @@ article a:hover {
 }
 article h1, article h2, article h3, article h4, article h5, article h6 {
 	color: rgb(var(--fg));
-	font-family: "Literata";
+	font-family: "Baskervville";
 }
 
 
