@@ -304,7 +304,7 @@ a:hover {
 
 
 .sidebar a.active {
-	background: rgb(var(--green_dark));
+	background: rgb(var(--aqua_dark));
 	color: rgb(var(--bg_dim_dark));
 }
 .sidebar a {
@@ -315,7 +315,7 @@ a:hover {
 }
 
 .sidebar a.active:hover {
-	background-color: rgb(var(--statusline1));
+	background-color: rgb(var(--aqua_dark));
 }
 
 .sidebar .nerd {
