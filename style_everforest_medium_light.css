@@ -201,16 +201,16 @@ code {
 }
 /*Basic Elements - Links*/
 a:link {
-	color: rgb(var(--purple));
+	color: rgb(var(--green));
 	text-decoration: none;
 }
 
 a:visited {
-	color: rgb(var(--purple));
+	color: rgb(var(--green));
 	text-decoration: none;
 }
 a:hover {
-	color: rgb(var(--orange));
+	color: rgb(var(--aqua));
 	text-decoration: none;
 }
 
