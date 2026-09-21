@@ -184,10 +184,24 @@ article {
 	padding: 1em;
 	margin-bottom: 1em;
 }
+
+.article a:link {
+	color: rgb(var(--green_dark));
+	text-decoration: none;
+}
+
+.article a:visited {
+	color: rgb(var(--green_dark));
+	text-decoration: none;
+}
+.article a:hover {
+	color: rgb(var(--aqua_dark));
+	text-decoration: none;
+}
 body {
 	position: relative;
-	background-color: rgb(var(--bg0));
-	color: rgb(var(--fg));
+	background-color: rgb(var(--bg0_dark));
+	color: rgb(var(--fg_dark));
 	font-family: "JetBrainsMono Regular";
 	margin: 0 auto;
 	font-size: 100%;
@@ -201,16 +215,16 @@ code {
 }
 /*Basic Elements - Links*/
 a:link {
-	color: rgb(var(--green));
+	color: rgb(var(--green_dark));
 	text-decoration: none;
 }
 
 a:visited {
-	color: rgb(var(--green));
+	color: rgb(var(--green_dark));
 	text-decoration: none;
 }
 a:hover {
-	color: rgb(var(--aqua));
+	color: rgb(var(--aqua_dark));
 	text-decoration: none;
 }
 
