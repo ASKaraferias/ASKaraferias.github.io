@@ -57,13 +57,28 @@
 	--grey0 	: 166, 176, 160;
 	--grey1 	: 147, 159, 145;
 	--grey2		: 130, 145, 129;
+
+	--statusline1	: 147, 178, 89;
+	--statusline2	: 112, 128, 137;
+	--statusline3	: 230, 104, 104;
+
+	--bg_dim_dark	: 35, 42, 46;
+	--bg0_dark	: 45, 53, 59;
+	--bg5_dark	: 86, 99, 95;
+	--fg_dark 	: 211, 198, 170;
+	--green_dark	: 167, 192, 128;
+	--purple_dark	: 214, 153, 182;
+	--blue_dark 	: 127, 187, 179;
+	--orange_dark	: 230, 152, 117;
+	--red_dark	: 230, 126, 128;
+	--aqua_dark	: 131, 192, 146;
 }
 /* Color classes*/
 .white {
-	color: rgb(var(--fg));
+	color: rgb(var(--purple_dark));
 }
 .green {
-	color: rgb(var(--green));
+	color: rgb(var(--green_dark));
 }
 .red {
 	color: rgb(var(--red));
@@ -77,7 +92,8 @@
 
 /*Other styling elements*/
 .titlegrad {
-	background: linear-gradient(to right, rgb(var(--orange)), rgb(var(--purple)) 50%);
+	/*background: linear-gradient(to right, rgb(var(--orange)), rgb(var(--purple)) 50%);*/
+	background: rgb(var(--green_dark));
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
@@ -98,7 +114,7 @@ h1 { /*Only for the Page Title!*/
 	font-size: 2.63em; /* 60px/16=3.75em */
 	line-height: 1.2em;
 	margin: 0;
-	background-color: rgb(var(--bg0));
+	background-color: rgb(var(--bg_dim_dark));
 	/*border-color: rgb(var(--grey1));
 	border-style: solid;
 	border-radius: 0.5em;
@@ -112,6 +128,7 @@ h1 { /*Only for the Page Title!*/
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
+	color: rgb(var(--fg_dark));
 }
 
 h2 {
@@ -150,19 +167,19 @@ p {
 	color: rgb(var(--fg));
 }
 .contents {
-	border-radius: 1em;
+	border-radius: 0em;
 	border-style: dashed;
 	border-width:2px;
-	border-color: rgb(var(--grey1));
+	border-color: rgb(var(--statusline2));
 	background-color: rgb(var(--bg0));
 	padding: 1em;
 	margin-bottom: 1em;
 }
 article {
-	border-radius: 1em;
+	border-radius: 0em;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: rgb(var(--grey1));
+	border-color: rgb(var(--statusline2));
 	background-color: rgb(var(--bg0));
 	padding: 1em;
 	margin-bottom: 1em;
@@ -217,6 +234,7 @@ a:hover {
 
 .item1 {
 	grid-area: header;
+	background: rgb(var(--bg_dim_dark));
 }
 
 .item1 h1, .item1 img {
@@ -240,8 +258,9 @@ a:hover {
 .item5 {
 	grid-area: footer;
 	margin: 1em;
-	background: rgb(var(--bg_dim));
-	border-radius: 1em;
+	background: rgb(var(--bg_dim_dark));
+	color: rgb(var(--fg_dark));
+	border-radius: 0em;
 }
 
 
@@ -250,6 +269,7 @@ a:hover {
 	font-family: "JetBrainsMono Bold";
 	height: 100%;
 	margin: 0;
+	color: rgb(var(--fg_dark));
 }
 .sidebar a {
 	/*display: block; */
@@ -257,11 +277,11 @@ a:hover {
 	padding-bottom: 0.6em;
 	padding-left: 1em;
 	padding-right: 1em;
-	margin: 0 0 0.5em 0;
+	margin: 0 0 0.0em 0;
 	border-radius: 2em;
 	font-size: 1em; 
 	font-weight: normal;
-	color: rgb(var(--fg));
+	color: rgb(var(--fg_dark));
 	text-align: left;
 	line-height: 3em;
 	white-space: nowrap;
@@ -269,19 +289,28 @@ a:hover {
 }
 
 
-/*.sidebar a.active {
-	background: linear-gradient(to right, var(--blue), rgb(var(--green)));
+.sidebar a.active {
+	background: rgb(var(--green_dark));
+	color: rgb(var(--bg_dim_dark));
+}
+.sidebar a {
+	background: rgb(var(--bg0_dark));
+}
+.sidebar a:hover {
+	background: rgb(var(--bg5_dark));
 }
 
 .sidebar a.active:hover {
-	background-color: rgb(var(--green));
-	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
-}*/
+	background-color: rgb(var(--statusline1));
+}
+
 .sidebar .nerd {
 	font-size: 1.56em;
 }
+/*
 
 .sidebar .home {
+	background-color: rgb(var(--statusline1));
 	background-color: rgb(var(--orange));
 	background-image: linear-gradient(to right, rgb(var(--orange)), rgba(var(--red), 0.7) );
 }
@@ -327,6 +356,7 @@ a:hover {
 	background-color: rgb(var(--aqua));
 	background-image: linear-gradient(to right, rgba(var(--blue),0.7), rgb(var(--aqua)));
 }
+*/
 
 .feed a {
 	font-family: "JetBrainsMono Bold";
@@ -336,10 +366,10 @@ a:hover {
 	padding-left: 1em;
 	padding-right: 1em;
 	margin: 0 0 0.5em 0;
-	border-radius: 2em;
+	border-radius: 0em;
 	font-size: 1em; 
 	font-weight: normal;
-	color: rgb(var(--fg));
+	color: rgb(var(--bg_dim_dark));
 	text-align: right;
 	line-height: 3em;
 	white-space: nowrap;
@@ -350,20 +380,20 @@ a:hover {
 }
 
 .feed a.atom {
-	background-color: rgb(var(--aqua));
-	background-image: linear-gradient(to right, rgb(var(--aqua)), rgba(var(--blue), 0.7));
+	background-color: rgb(var(--aqua_dark));
+	/*background-image: linear-gradient(to right, rgb(var(--aqua)), rgba(var(--blue), 0.7));*/
 }
 .feed a.atom:hover {
-	background-color: rgb(var(--blue));
-	background-image: linear-gradient(to right, rgba(var(--blue),0.7), rgb(var(--aqua)));
+	background-color: rgb(var(--blue_dark));
+	/*background-image: linear-gradient(to right, rgba(var(--blue),0.7), rgb(var(--aqua)));*/
 }
 .feed a.rss {
-	background-color: rgb(var(--orange));
-	background-image: linear-gradient(to right, rgb(var(--orange)), rgba(var(--red), 0.7) );
+	background-color: rgb(var(--orange_dark));
+	/*background-image: linear-gradient(to right, rgb(var(--orange)), rgba(var(--red), 0.7) );*/
 }
 .feed a.rss:hover {
-	background-color: rgb(var(--red));
-	background-image: linear-gradient(to right, rgba(var(--orange),0.7), rgb(var(--red)));
+	background-color: rgb(var(--red_dark));
+	/*background-image: linear-gradient(to right, rgba(var(--orange),0.7), rgb(var(--red)));*/
 }
 
 /*.sidebar a:hover {
