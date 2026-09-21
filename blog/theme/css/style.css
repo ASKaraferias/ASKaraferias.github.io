@@ -38,38 +38,53 @@
 
 /*Color Definitions*/
 :root {
-	--crust		: 17, 17, 27;
-	--mantle	: 24, 24, 37;
-	--base		: 30, 30, 46;
-	--white 	: 205, 214, 244;
+	--bg_dim	: 239, 235, 212;
+	--bg0		: 253, 246, 227;
+	--bg1		: 244, 240, 217;
+	--bg2 		: 239, 235, 212;
+	--bg3 		: 230, 226, 204;
+	--bg4 		: 224, 220, 199;
+	--bg5 		: 189, 195, 175;
+	--fg 		: 92, 106, 114;
 
-	--lavender 	: 180, 190, 254;
-	--blue 		: 137, 180, 250;
-	--saphire 	: 116, 199, 236;
-	--sky 		: 137, 220, 235;
-	--teal 		: 148, 226, 213;
-	--green 	: 166, 227, 161;
-	--yellow 	: 249, 226, 175;
-	--peach 	: 250, 179, 135;
-	--maroon 	: 235, 160, 172;
-	--red		: 243, 139, 168;
-	--mauve 	: 203, 166, 247;
-	--pink 		: 245, 194, 231;
-	--flamingo	: 242, 205, 205;
-	--rosewater	: 245, 224, 220;
+	--red 		: 248, 85, 82;
+	--orange 	: 245, 125, 38;
+	--yellow 	: 223, 160, 0;
+	--green 	: 141, 161, 1;
+	--aqua 		: 53, 167, 124;
+	--blue		: 58, 148, 197;
+	--purple 	: 223, 105, 186;
+	--grey0 	: 166, 176, 160;
+	--grey1 	: 147, 159, 145;
+	--grey2		: 130, 145, 129;
+
+	--statusline1	: 147, 178, 89;
+	--statusline2	: 112, 128, 137;
+	--statusline3	: 230, 104, 104;
+
+	--bg_dim_dark	: 35, 42, 46;
+	--bg0_dark	: 45, 53, 59;
+	--bg5_dark	: 86, 99, 95;
+	--fg_dark 	: 211, 198, 170;
+	--green_dark	: 167, 192, 128;
+	--purple_dark	: 214, 153, 182;
+	--blue_dark 	: 127, 187, 179;
+	--orange_dark	: 230, 152, 117;
+	--red_dark	: 230, 126, 128;
+	--aqua_dark	: 131, 192, 146;
 }
 /* Color classes*/
 .white {
-	color: rgb(var(--white));
+	color: rgb(var(--purple_dark));
 }
 .green {
-	color: rgb(var(--green));
+	color: rgb(var(--green_dark));
 }
 .red {
 	color: rgb(var(--red));
 }
 .mauve {
-	color: rgb(var(--mauve));
+	color: rgb(var(--purple));
 }
 .yellow {
 	color: rgb(var(--yellow));
@@ -77,7 +92,8 @@
 
 /*Other styling elements*/
 .titlegrad {
-	background: linear-gradient(to right, rgb(var(--peach)), rgb(var(--mauve)) 50%);
+	/*background: linear-gradient(to right, rgb(var(--orange)), rgb(var(--purple)) 50%);*/
+	background: rgb(var(--green_dark));
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
@@ -98,8 +114,8 @@ h1 { /*Only for the Page Title!*/
 	font-size: 2.63em; /* 60px/16=3.75em */
 	line-height: 1.2em;
 	margin: 0;
-	background-color: rgb(var(--base));
-	/*border-color: rgb(var(--lavender));
+	background-color: rgb(var(--bg_dim_dark));
+	/*border-color: rgb(var(--grey1));
 	border-style: solid;
 	border-radius: 0.5em;
 	border-width: 5px;*/
@@ -112,6 +128,7 @@ h1 { /*Only for the Page Title!*/
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
+	color: rgb(var(--fg_dark));
 }
 
 h2 {
@@ -147,30 +164,30 @@ h6 {
 
 p {
 	font-size: 1em; /* 16px/16 = 1em */
-	color: rgb(var(--white));
+	color: rgb(var(--fg));
 }
 .contents {
-	border-radius: 1em;
+	border-radius: 0em;
 	border-style: dashed;
 	border-width:2px;
-	border-color: rgb(var(--lavender));
-	background-color: rgb(var(--base));
+	border-color: rgb(var(--statusline2));
+	background-color: rgb(var(--bg0));
 	padding: 1em;
 	margin-bottom: 1em;
 }
 article {
-	border-radius: 1em;
+	border-radius: 0em;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: rgb(var(--lavender));
-	background-color: rgb(var(--base));
+	border-color: rgb(var(--statusline2));
+	background-color: rgb(var(--bg0));
 	padding: 1em;
 	margin-bottom: 1em;
 }
 body {
 	position: relative;
-	background-color: rgb(var(--base));
-	color: rgb(var(--white));
+	background-color: rgb(var(--bg0));
+	color: rgb(var(--fg));
 	font-family: "JetBrainsMono Regular";
 	margin: 0 auto;
 	font-size: 100%;
@@ -179,21 +196,21 @@ body {
 code {
 	font-family: "Fira Code";
 	font-weight: 1em;
-	color: rgb(var(--crust));
-	background: rgb(var(--white));
+	color: rgb(var(--fg));
+	background: rgb(var(--bg1));
 }
 /*Basic Elements - Links*/
 a:link {
-	color: rgb(var(--mauve));
+	color: rgb(var(--purple));
 	text-decoration: none;
 }
 
 a:visited {
-	color: rgb(var(--mauve));
+	color: rgb(var(--purple));
 	text-decoration: none;
 }
 a:hover {
-	color: rgb(var(--peach));
+	color: rgb(var(--orange));
 	text-decoration: none;
 }
 
@@ -206,7 +223,7 @@ a:hover {
  	  'menu main main main right right'
  	  'footer footer footer footer footer footer';
  	gap: 2em;
- 	/**background-color: rgb(var(--base));*/
+ 	/**background-color: rgb(var(--bg0));*/
  	padding: 0.6em;
 }
 
@@ -217,6 +234,7 @@ a:hover {
 
 .item1 {
 	grid-area: header;
+	background: rgb(var(--bg_dim_dark));
 }
 
 .item1 h1, .item1 img {
@@ -240,8 +258,9 @@ a:hover {
 .item5 {
 	grid-area: footer;
 	margin: 1em;
-	background: rgb(var(--crust));
-	border-radius: 1em;
+	background: rgb(var(--bg_dim_dark));
+	color: rgb(var(--fg_dark));
+	border-radius: 0em;
 }
 
 
@@ -250,6 +269,7 @@ a:hover {
 	font-family: "JetBrainsMono Bold";
 	height: 100%;
 	margin: 0;
+	color: rgb(var(--fg_dark));
 }
 .sidebar a {
 	/*display: block; */
@@ -257,11 +277,11 @@ a:hover {
 	padding-bottom: 0.6em;
 	padding-left: 1em;
 	padding-right: 1em;
-	margin: 0 0 0.5em 0;
+	margin: 0 0 0.0em 0;
 	border-radius: 2em;
 	font-size: 1em; 
 	font-weight: normal;
-	color: rgb(var(--crust));
+	color: rgb(var(--fg_dark));
 	text-align: left;
 	line-height: 3em;
 	white-space: nowrap;
@@ -269,64 +289,74 @@ a:hover {
 }
 
 
-/*.sidebar a.active {
-	background: linear-gradient(to right, var(--saphire), rgb(var(--green)));
+.sidebar a.active {
+	background: rgb(var(--green_dark));
+	color: rgb(var(--bg_dim_dark));
+}
+.sidebar a {
+	background: rgb(var(--bg0_dark));
+}
+.sidebar a:hover {
+	background: rgb(var(--bg5_dark));
 }
 
 .sidebar a.active:hover {
-	background-color: rgb(var(--green));
-	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
-}*/
+	background-color: rgb(var(--statusline1));
+}
+
 .sidebar .nerd {
 	font-size: 1.56em;
 }
+/*
 
 .sidebar .home {
-	background-color: rgb(var(--peach));
-	background-image: linear-gradient(to right, rgb(var(--peach)), rgba(var(--red), 0.7) );
+	background-color: rgb(var(--statusline1));
+	background-color: rgb(var(--orange));
+	background-image: linear-gradient(to right, rgb(var(--orange)), rgba(var(--red), 0.7) );
 }
 .sidebar a.home:hover {
 	background-color: rgb(var(--red));
-	background-image: linear-gradient(to right, rgba(var(--peach),0.7), rgb(var(--red)));
+	background-image: linear-gradient(to right, rgba(var(--orange),0.7), rgb(var(--red)));
 }
 
 .sidebar .bio {
-	background-color: rgb(var(--maroon));
-	background-image: linear-gradient(to right, rgb(var(--maroon)), rgba(var(--mauve), 0.7));
+	background-color: rgb(var(--red));
+	background-image: linear-gradient(to right, rgb(var(--red)), rgba(var(--purple), 0.7));
 }
 .sidebar a.bio:hover {
-	background-color: rgb(var(--mauve));
-	background-image: linear-gradient(to right, rgba(var(--maroon),0.7), rgb(var(--mauve)));
+	background-color: rgb(var(--purple));
+	background-image: linear-gradient(to right, rgba(var(--red),0.7), rgb(var(--purple)));
 }
 
 .sidebar .research {
-	background-color: rgb(var(--mauve));
-	background-image: linear-gradient(to right, rgb(var(--mauve)), rgba(var(--lavender), 0.7));
+	background-color: rgb(var(--purple));
+	background-image: linear-gradient(to right, rgb(var(--purple)), rgba(var(--blue), 0.7));
 }
 .sidebar a.research:hover {
-	background-color: rgb(var(--lavender));
-	background-image: linear-gradient(to right, rgba(var(--mauve),0.7), rgb(var(--lavender)));
+	background-color: rgb(var(--blue));
+	background-image: linear-gradient(to right, rgba(var(--purple),0.7), rgb(var(--blue)));
 }
 
 
 .sidebar .about {
-	background-color: rgb(var(--teal));
-	background-image: linear-gradient(to right, rgb(var(--teal)), rgba(var(--green), 0.7));
+	background-color: rgb(var(--aqua));
+	background-image: linear-gradient(to right, rgb(var(--aqua)), rgba(var(--green), 0.7));
 }
 .sidebar a.about:hover {
 	background-color: rgb(var(--green));
-	background-image: linear-gradient(to right, rgba(var(--teal),0.7), rgb(var(--green)));
+	background-image: linear-gradient(to right, rgba(var(--aqua),0.7), rgb(var(--green)));
 }
 
 
 .sidebar .blog {
 	background-color: rgb(var(--blue));
-	background-image: linear-gradient(to right, rgb(var(--blue)), rgb(var(--saphire), 0.7));
+	background-image: linear-gradient(to right, rgb(var(--blue)), rgb(var(--aqua), 0.7));
 }
 .sidebar a.blog:hover {
-	background-color: rgb(var(--saphire));
-	background-image: linear-gradient(to right, rgba(var(--blue),0.7), rgb(var(--saphire)));
+	background-color: rgb(var(--aqua));
+	background-image: linear-gradient(to right, rgba(var(--blue),0.7), rgb(var(--aqua)));
 }
+*/
 
 .feed a {
 	font-family: "JetBrainsMono Bold";
@@ -336,10 +366,10 @@ a:hover {
 	padding-left: 1em;
 	padding-right: 1em;
 	margin: 0 0 0.5em 0;
-	border-radius: 2em;
+	border-radius: 0em;
 	font-size: 1em; 
 	font-weight: normal;
-	color: rgb(var(--crust));
+	color: rgb(var(--bg_dim_dark));
 	text-align: right;
 	line-height: 3em;
 	white-space: nowrap;
@@ -350,20 +380,20 @@ a:hover {
 }
 
 .feed a.atom {
-	background-color: rgb(var(--teal));
-	background-image: linear-gradient(to right, rgb(var(--teal)), rgba(var(--blue), 0.7));
+	background-color: rgb(var(--aqua_dark));
+	/*background-image: linear-gradient(to right, rgb(var(--aqua)), rgba(var(--blue), 0.7));*/
 }
 .feed a.atom:hover {
-	background-color: rgb(var(--blue));
-	background-image: linear-gradient(to right, rgba(var(--blue),0.7), rgb(var(--teal)));
+	background-color: rgb(var(--blue_dark));
+	/*background-image: linear-gradient(to right, rgba(var(--blue),0.7), rgb(var(--aqua)));*/
 }
 .feed a.rss {
-	background-color: rgb(var(--peach));
-	background-image: linear-gradient(to right, rgb(var(--peach)), rgba(var(--red), 0.7) );
+	background-color: rgb(var(--orange_dark));
+	/*background-image: linear-gradient(to right, rgb(var(--orange)), rgba(var(--red), 0.7) );*/
 }
 .feed a.rss:hover {
-	background-color: rgb(var(--red));
-	background-image: linear-gradient(to right, rgba(var(--peach),0.7), rgb(var(--red)));
+	background-color: rgb(var(--red_dark));
+	/*background-image: linear-gradient(to right, rgba(var(--orange),0.7), rgb(var(--red)));*/
 }
 
 /*.sidebar a:hover {
@@ -400,7 +430,7 @@ a:hover {
 		  'main main main main main main'
 		  'footer footer footer footer footer footer';
 		gap: 2em;
-		/**background-color: rgb(var(--base));*/
+		/**background-color: rgb(var(--bg0));*/
 		padding: 0.6em;
 	}
 }
