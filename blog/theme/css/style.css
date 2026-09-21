@@ -214,6 +214,7 @@ article {
 	padding: 1em;
 	margin-bottom: 1em;
 	color: rgb(var(--fg));
+	font-family: "Literata";
 }
 
 article a:link {
