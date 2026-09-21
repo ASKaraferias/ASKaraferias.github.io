@@ -190,7 +190,7 @@ h6 {
 p {
 	font-family: "Baskervville";
 	font-size: 1em; /* 16px/16 = 1em */
-	color: rgb(var(--fg));
+	color: rgb(var(--bg_dim_dark));
 }
 .contents {
 	border-radius: 0em;
@@ -209,7 +209,7 @@ article {
 	background-color: rgb(var(--bg0));
 	padding: 1em;
 	margin-bottom: 1em;
-	color: rgb(var(--fg));
+	color: rgb(var(--bg_dim_dark));
 	font-family: "Baskervville";
 }
 
@@ -227,7 +227,7 @@ article a:hover {
 	text-decoration: none;
 }
 article h1, article h2, article h3, article h4, article h5, article h6 {
-	color: rgb(var(--fg));
+	color: rgb(var(--bg_dim_dark));
 	font-family: "Baskervville";
 }
 
@@ -242,7 +242,7 @@ body {
 }
 /*Basic Elements - Specific string types*/
 code {
-	font-family: "Fira Code";
+	font-family: "JetBrainsMono Regular";
 	font-weight: 1em;
 	color: rgb(var(--fg));
 	background: rgb(var(--bg1));
